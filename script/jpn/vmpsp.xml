@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="Yamaneko.dll" 接口名="PAK" 0 />
+	<插件 文件名="Yamaneko.dll" 接口名="ITC" 1 />
+	<插件 文件名="Yamaneko.dll" 接口名="ITP" 2 />
+
+	<文件 文件名="data\back\*.itp"           插件="2" />
+	<文件 文件名="data\chr\*.itc"            插件="1" />
+	<文件 文件名="data\effect\texture\*.itp" 插件="2" />
+	<文件 文件名=":data\pack\*.dat"          插件="0" />
+	<文件 文件名=":data\pack\*.itc"          插件="1" />
+	<文件 文件名="data\system\*.itp"         插件="2" />
+	<文件 文件名="system\*.itp"              插件="2" />
+
+</游戏脚本>

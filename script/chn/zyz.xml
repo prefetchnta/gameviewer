@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="ThirdWave.dll" 接口名="PACK" 0 />
+	<插件 文件名="ThirdWave.dll" 接口名="MG"   1 />
+	<插件 文件名="ThirdWave.dll" 接口名="LM"   2 />
+	<插件 文件名="ThirdWave.dll" 接口名="MPC"  3 />
+	<插件 文件名="ThirdWave.dll" 接口名="SHD"  4 />
+	<插件 文件名="ThirdWave.dll" 接口名="ZBG"  5 />
+
+	<文件 文件名="Data\*.dat"  插件="0" />
+	<文件 文件名="Data\Disk01" 插件="0" />
+
+	<文件 文件名="Image\*.dat" />
+
+</游戏脚本>

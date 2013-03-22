@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="TGL.dll" 接口名="MGE" 0 />
+
+	<文件 文件名="data\*.pac"          插件="0" />
+	<文件 文件名=":data\char\*.pac"    插件="0" />
+	<文件 文件名="data\event\*.pac"    插件="0" />
+	<文件 文件名="data\history\*.pac"  插件="0" />
+	<文件 文件名="data\html\img\*.jpg"          />
+	<文件 文件名="data\map\chip\*.pac" 插件="0" />
+	<文件 文件名=":data\object\*.pac"  插件="0" />
+
+</游戏脚本>

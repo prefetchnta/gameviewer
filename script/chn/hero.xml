@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="SoftWorld.dll" 接口名="GISK" 0 />
+	<插件 文件名="SoftWorld.dll" 接口名="HERO" 1 />
+
+	<文件 文件名="Herodisk" 插件="0" 数据文件="4D8000:C00000:512" />
+
+</游戏脚本>

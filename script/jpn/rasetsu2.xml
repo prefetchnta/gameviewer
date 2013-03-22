@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="Rasetsu.dll" 接口名="LPCG" 0 />
+	<插件 文件名="Rasetsu.dll" 接口名="CS"   1 />
+
+	<文件 文件名="CH\Face\*.tga"                         />
+	<文件 文件名="CH\Per\*.lpg"                 插件="0" />
+	<文件 文件名="CH\Per\TCol\*.lpg"            插件="0" />
+	<文件 文件名="CH\Unit\*.lpg"                插件="0" />
+	<文件 文件名="Frame\*.lpg"                  插件="0" />
+	<文件 文件名="Frame\*.tga"                           />
+	<文件 文件名="Frame\ED\*.lpg"               插件="0" />
+	<文件 文件名="Frame\LD\*.lpg"               插件="0" />
+	<文件 文件名="MD\BMDL\Tx\*.lpg"             插件="0" />
+	<文件 文件名="MD\BMDL\Tx\*.tga"                      />
+	<文件 文件名="MD\effect\Tx\*.lpg"           插件="0" />
+	<文件 文件名="MD\effect\Tx\*.tga"                    />
+	<文件 文件名="MD\MB\Tx\*.lpg"               插件="0" />
+	<文件 文件名="MD\MB\Tx\*.bmp"                        />
+	<文件 文件名="MD\MB\Tx\*.tga"                        />
+	<文件 文件名="MD\MB\Tx\backup\*.bmp"                 />
+	<文件 文件名="MD\MB\Tx\backup\*.tga"                 />
+	<文件 文件名="MD\MB\Tx\backup\planet\*.bmp"          />
+	<文件 文件名="MD\MB\Tx\bg_1\*.bmp"                   />
+	<文件 文件名="MD\MB\Tx\bg_5\*.bmp"                   />
+	<文件 文件名="MD\MB\Tx\bg_6\*.bmp"                   />
+	<文件 文件名="MD\MB\Tx\bg_7\*.bmp"                   />
+	<文件 文件名="MD\MB\Tx\bg_8\*.bmp"                   />
+	<文件 文件名="MD\MB\Tx\bmp_t0\*.tga"                 />
+	<文件 文件名="MD\Obj\*.lpg"                 插件="0" />
+	<文件 文件名="MD\Obj\*.bmp"                          />
+	<文件 文件名="MD\Unit\Tx\*.lpg"             插件="0" />
+	<文件 文件名="MD\Unit\Tx\*.tga"                      />
+	<文件 文件名="MGR\*.lpg"                    插件="0" />
+	<文件 文件名="MGR\DC\*.lpg"                 插件="0" />
+	<文件 文件名="ScData\*.cs"                  插件="1" />
+	<文件 文件名="ScData\SCG\*.lpg"             插件="0" />
+	<文件 文件名="SYSCG\*.lpg"                  插件="0" />
+
+</游戏脚本>

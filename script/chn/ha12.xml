@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="WindThunder.dll" 接口名="WTP" 0 />
+	<插件 文件名="WindThunder.dll" 接口名="AMP" 1 />
+	<插件 文件名="WindThunder.dll" 接口名="APS" 2 />
+
+	<文件 文件名="Ani\*.bin"    插件="0" />
+	<文件 文件名="Ani\*.cab"    插件="0" />
+	<文件 文件名="Battle\*.aps" 插件="2" />
+	<文件 文件名="Image\*.bin"  插件="0" />
+	<文件 文件名="Image\*.cab"  插件="0" />
+	<文件 文件名="map\*.cab"    插件="0" />
+
+</游戏脚本>

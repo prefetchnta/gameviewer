@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="TMEMO.dll" 接口名="XAC" 0 />
+	<插件 文件名="TMEMO.dll" 接口名="PTM" 1 />
+
+	<文件 文件名="Ptm\Album\*.ptm"           插件="1" />
+	<文件 文件名="Ptm\Anime\*.ptm"           插件="1" />
+	<文件 文件名="Ptm\Battle\*.xac"          插件="0" />
+	<文件 文件名="Ptm\Bunkasai\Bungei\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Dennou\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Kagaku\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Karuto\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Kinta\*.ptm"  插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Romeo\*.ptm"  插件="1" />
+	<文件 文件名="Ptm\Bunkasai\Suisou\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Bust\*.ptm"            插件="1" />
+	<文件 文件名="Ptm\Bust\Prolog\*.ptm"     插件="1" />
+	<文件 文件名="Ptm\End\*.xac"             插件="0" />
+	<文件 文件名="Ptm\End\*.ptm"             插件="1" />
+	<文件 文件名="Ptm\Ennichi\Kin\*.ptm"     插件="1" />
+	<文件 文件名="Ptm\Ennichi\Shot\*.ptm"    插件="1" />
+	<文件 文件名="Ptm\Frontefc\*.ptm"        插件="1" />
+	<文件 文件名="Ptm\Haikei\*.ptm"          插件="1" />
+	<文件 文件名="Ptm\Main\*.ptm"            插件="1" />
+	<文件 文件名="Ptm\Mascot\*.ptm"          插件="1" />
+	<文件 文件名="Ptm\Minigame\Common\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Minigame\Hurdle\*.ptm" 插件="1" />
+	<文件 文件名="Ptm\Minigame\Kari2\*.ptm"  插件="1" />
+	<文件 文件名="Ptm\Minigame\Ninin\*.ptm"  插件="1" />
+	<文件 文件名="Ptm\Minigame\Spoon\*.ptm"  插件="1" />
+	<文件 文件名="Ptm\Name_ent\*.ptm"        插件="1" />
+	<文件 文件名="Ptm\Omikuji\*.ptm"         插件="1" />
+	<文件 文件名="Ptm\Opng\*.ptm"            插件="1" />
+	<文件 文件名="Ptm\Prolog\*.ptm"          插件="1" />
+	<文件 文件名="Ptm\Sd_com\*.xac"          插件="0" />
+	<文件 文件名="Ptm\Sd_com\*.ptm"          插件="1" />
+	<文件 文件名="Ptm\Sd_siai\*.ptm"         插件="1" />
+	<文件 文件名="Ptm\Video\*.xac"           插件="0" />
+	<文件 文件名="Ptm\Video\*.ptm"           插件="1" />
+	<文件 文件名="se_arc\*.xac"              插件="0" />
+	<文件 文件名="talk\0\*.xac"              插件="0" />
+	<文件 文件名="talk\1\*.xac"              插件="0" />
+	<文件 文件名="talk\2\*.xac"              插件="0" />
+	<文件 文件名="talk\3\*.xac"              插件="0" />
+	<文件 文件名="talk\4\*.xac"              插件="0" />
+	<文件 文件名="talk\5\*.xac"              插件="0" />
+	<文件 文件名="talk\6\*.xac"              插件="0" />
+
+</游戏脚本>

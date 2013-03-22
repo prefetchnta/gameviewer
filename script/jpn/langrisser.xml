@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="Langrisser.dll" 接口名="RES" 0 />
+	<插件 文件名="Langrisser.dll" 接口名="MP"  1 />
+
+	<!-- 1 & 2 -->
+	<文件 文件名="*.res" 插件="0" />
+
+	<文件 文件名="rescs\*.pct" />
+	<文件 文件名="resfs\*.pct" />
+	<文件 文件名="resmap\*.pct" />
+	<文件 文件名="resstaff\*.pct" />
+
+	<!-- 3 -->
+	<文件 文件名="btsrc\*.mp" 插件="1" />
+	<文件 文件名="char\*.mp"  插件="1" />
+	<文件 文件名="cs\*.mp"    插件="1" />
+	<文件 文件名="face\*.mp"  插件="1" />
+	<文件 文件名="fs\*.mp"    插件="1" />
+	<文件 文件名="mao\*.mp"   插件="1" />
+	<文件 文件名="map\*.pct"           />
+	<文件 文件名="mapsp\*.mp" 插件="1" />
+	<文件 文件名="mgsp\*.mp"  插件="1" />
+	<文件 文件名="oped\*.mp"  插件="1" />
+	<文件 文件名="se\*.mp"    插件="1" />
+
+	<!-- 千年纪 -->
+	<文件 文件名="Avi\bakuhatu\*.png" />
+	<文件 文件名="Avi\fuyuu\*.png" />
+	<文件 文件名="Avi\hensin\*.png" />
+	<文件 文件名="Avi\opening\*.png" />
+	<文件 文件名="Avi\saigo\*.png" />
+	<文件 文件名="Avi\salogo\*.png" />
+	<文件 文件名="clt\*.png" />
+	<文件 文件名="face\*.png" />
+	<文件 文件名="Mapping\*.png" />
+	<文件 文件名="Mapping\Allmap\*.png" />
+	<文件 文件名="Mapping\Character\*.png" />
+	<文件 文件名="Mapping\Character\Blue\*.png" />
+	<文件 文件名="Mapping\Character\Green\*.png" />
+	<文件 文件名="Mapping\Character\Red\*.png" />
+	<文件 文件名="Mapping\Character\Yellow\*.png" />
+	<文件 文件名="Mapping\Effect\*.png" />
+	<文件 文件名="Mapping\Etc\*.png" />
+	<文件 文件名="Mapping\Map\*.png" />
+	<文件 文件名="Mapping\VisualMap\*.png" />
+	<文件 文件名="New\*.png" />
+	<文件 文件名="StlPict\*.png" />
+	<文件 文件名="SysGrp\*.png" />
+	<文件 文件名="Viseff\*.png" />
+	<文件 文件名="Winframe\*.png" />
+
+</游戏脚本>

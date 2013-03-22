@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="SoftStar.dll" 接口名="YJL" 0 />
+	<插件 文件名="SoftStar.dll" 接口名="PLC" 1 />
+	<插件 文件名="SoftStar.dll" 接口名="WD"  2 />
+
+	<文件 文件名="PicData\*.YJL" 插件="0" />
+
+</游戏脚本>

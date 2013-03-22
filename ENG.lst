@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏列表>
+
+	<分类 名称="ARPG">
+				<游戏 名称="Hellgate London[AP]" 文件="west\hgl.xml" />
+	</分类>
+
+	<分类 名称="FPS">
+				<游戏 名称="Call Of Duty 2[AP]" 文件="west\cod2.xml" />
+	</分类>
+
+</游戏列表>

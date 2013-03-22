@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="Yamaneko.dll" 接口名="PAK" 0 />
+	<插件 文件名="Yamaneko.dll" 接口名="PKC" 1 />
+	<插件 文件名="Yamaneko.dll" 接口名="ITC" 2 />
+	<插件 文件名="Yamaneko.dll" 接口名="ITP" 3 />
+
+	<文件 文件名="data_3rd\*.dat"                插件="0" />
+	<文件 文件名="data_3rd\start\*.pkc"          插件="1" />
+	<文件 文件名="data_3rd\battle\*.itp"         插件="3" />
+	<文件 文件名="data_3rd\battle\symbol\*.itp"  插件="3" />
+	<文件 文件名=":data_3rd\battle2\*.bcc"       插件="0" />
+	<文件 文件名=":data_3rd\battle2\*.itc"       插件="2" />
+	<文件 文件名="data_3rd\battle2\*.bcm"        插件="0" />
+	<文件 文件名="data_3rd\battle2\*.pkc"        插件="1" />
+	<文件 文件名="data_3rd\chr\*.itc"            插件="2" />
+	<文件 文件名="data_3rd\cooking\*.itp"        插件="3" />
+	<文件 文件名="data_3rd\effect\texture\*.itp" 插件="3" />
+	<文件 文件名="data_3rd\etc\*.itp"            插件="3" />
+	<文件 文件名="data_3rd\fishnote\*.itp"       插件="3" />
+	<文件 文件名="data_3rd\itp\*.itp"            插件="3" />
+	<文件 文件名="data_3rd\map\texture\*.itp"    插件="3" />
+	<文件 文件名="data_3rd\map3\*.mcc"           插件="0" />
+	<文件 文件名=":data_3rd\map3\*.itc"          插件="2" />
+	<文件 文件名="data_3rd\map4\*.mc1"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mc2"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mc3"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mcc"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mce"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mcl"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mcp"           插件="0" />
+	<文件 文件名="data_3rd\map4\*.mcz"           插件="0" />
+	<文件 文件名=":data_3rd\map4\*.itc"          插件="2" />
+	<文件 文件名="data_3rd\map5\*.dat"           插件="0" />
+	<文件 文件名="data_3rd\minigame\*.dat"       插件="0" />
+	<文件 文件名="data_3rd\minigame\*.itp"       插件="3" />
+	<文件 文件名=":data_3rd\minigame\*.itc"      插件="2" />
+	<文件 文件名="data_3rd\monsnote\*.itp"       插件="3" />
+	<文件 文件名="data_3rd\monsnote\ca\*.itp"    插件="3" />
+	<文件 文件名="data_3rd\system\*.itp"         插件="3" />
+	<文件 文件名="data_3rd\visual\*.itp"         插件="3" />
+
+</游戏脚本>

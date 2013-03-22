@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="AZSYSTEM.dll" 接口名="DAF" 0 />
+	<插件 文件名="AZSYSTEM.dll" 接口名="CGF" 1 />
+	<插件 文件名="AZSYSTEM.dll" 接口名="MAP" 2 />
+	<插件 文件名="AZSYSTEM.dll" 接口名="TBL" 3 />
+	<插件 文件名="AZSYSTEM.dll" 接口名="SNR" 4 />
+
+	<文件 文件名="*.arc" 插件="0" />
+
+</游戏脚本>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="ADAM.dll" 接口名="LOWKI" 0 />
+	<插件 文件名="ADAM.dll" 接口名="MIF"   1 />
+
+	<文件 文件名="Data\*.LowK" 插件="0" />
+
+</游戏脚本>

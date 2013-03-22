@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="XenoAge.dll" 接口名="GMB" 0 />
+	<插件 文件名="XenoAge.dll" 接口名="GMS" 1 />
+
+	<文件 文件名="Common\Char\*.gms"         插件="1" />
+	<文件 文件名="Common\Dialog\*.gmb"       插件="0" />
+	<文件 文件名="Common\Hinfo\*.gmb"        插件="0" />
+	<文件 文件名="Common\Magic\*.gms"        插件="1" />
+	<文件 文件名="Common\Magic\sm\*.gms"     插件="1" />
+	<文件 文件名="Common\Market\*.gmb"       插件="0" />
+	<文件 文件名="Common\menu\*.gmb"         插件="0" />
+	<文件 文件名="Common\menu\*.bmp"                  />
+	<文件 文件名="Common\Script\*.gms"       插件="1" />
+	<文件 文件名="Common\Spr\*.gmb"          插件="0" />
+	<文件 文件名="Common\Spr\*.gms"          插件="1" />
+	<文件 文件名="Common\_skill\*.gms"       插件="1" />
+	<文件 文件名="Xenoage\Backgrd\*.gmb"     插件="0" />
+	<文件 文件名="Xenoage\Bgani\*.gmb"       插件="0" />
+	<文件 文件名="Xenoage\Hinfo\*.gmb"       插件="0" />
+	<文件 文件名="XenoagePlus\Backgrd\*.gmb" 插件="0" />
+	<文件 文件名="XenoagePlus\Bgani\*.gmb"   插件="0" />
+	<文件 文件名="XenoagePlus\Bgani\*.gms"   插件="1" />
+	<文件 文件名="XenoagePlus\Hinfo\*.gmb"   插件="0" />
+
+</游戏脚本>

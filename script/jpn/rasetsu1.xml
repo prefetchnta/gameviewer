@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="Rasetsu.dll" 接口名="LPK"  0 />
+	<插件 文件名="Rasetsu.dll" 接口名="LPSG" 1 />
+	<插件 文件名="Rasetsu.dll" 接口名="CS"   2 />
+
+	<文件 文件名="BG\*.lpk"          插件="0" />
+	<文件 文件名="BG\*.bmp"                   />
+	<文件 文件名="CH\*.lpk"          插件="0" />
+	<文件 文件名="CH\*.lsg"          插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="CH\PER\*.lsg"      插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="CH\UNIT\*.lsg"     插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\*.lpk"       插件="0" />
+	<文件 文件名="Frame\endc??.lsg"  插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\ende01.lsg"  插件="1" 数据文件="r1\End01.pal" />
+	<文件 文件名="Frame\ende02.lsg"  插件="1" 数据文件="r1\End02.pal" />
+	<文件 文件名="Frame\ende03.lsg"  插件="1" 数据文件="r1\End03.pal" />
+	<文件 文件名="Frame\ende04.lsg"  插件="1" 数据文件="r1\End04.pal" />
+	<文件 文件名="Frame\ende05.lsg"  插件="1" 数据文件="r1\End05.pal" />
+	<文件 文件名="Frame\ende06.lsg"  插件="1" 数据文件="r1\End06.pal" />
+	<文件 文件名="Frame\ende07.lsg"  插件="1" 数据文件="r1\End07.pal" />
+	<文件 文件名="Frame\ende08.lsg"  插件="1" 数据文件="r1\End08.pal" />
+	<文件 文件名="Frame\ende09.lsg"  插件="1" 数据文件="r1\End09.pal" />
+	<文件 文件名="Frame\ende10.lsg"  插件="1" 数据文件="r1\End10.pal" />
+	<文件 文件名="Frame\endf??.lsg"  插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\g_over.lsg"  插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\MCF.lsg"     插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\mconp01.lsg" 插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\*.pak"       插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="Frame\*.bmp"                />
+	<文件 文件名="MGr\*.lsg"         插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="MGr\*.pak"         插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="ScData\*.cs"       插件="2" />
+	<文件 文件名="ScData\MpCg\*.lsg" 插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="ScData\SCG\*.lsg"  插件="1" 数据文件="r1\base.pal" />
+	<文件 文件名="unit\*.pak"        插件="1" 数据文件="r1\base.pal" />
+
+	<!-- 此处顺序不可切换 -->
+	<文件 文件名="start.lsg" 插件="1" 数据文件="r1\start.pal" />
+	<文件 文件名="*.lsg"     插件="1" 数据文件="r1\base.pal" />
+
+</游戏脚本>

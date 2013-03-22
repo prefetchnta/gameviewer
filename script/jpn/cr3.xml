@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<游戏脚本>
+
+	<插件 文件名="KISS.upk" 0 />
+
+	<文件 文件名="CharaParts\*.arc" 插件="0" />
+	<文件 文件名="GameData\*.arc"   插件="0" />
+
+</游戏脚本>
